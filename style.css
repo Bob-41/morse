@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h2{
     margin-top: 120px;
     font-size: 36px;
@@ -18,19 +22,6 @@ body {
     padding: 0;
 }
 
-#inputText {
-    background-color: #1b3357;
-    width: 300px;
-    height: 100px;
-    font-size: 20px;
-    padding: 13px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: none;
-    color: #F8FAFC;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    font-family: Stylish, sans-serif;
-}
 
 #inputText::placeholder {
     font-family: Stylish, sans-serif;
@@ -39,16 +30,49 @@ body {
     opacity: 0.7;
 }
 
+#inputText {
+    background-color: #1b3357;
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    padding: 13px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: none;
+    color: #F8FAFC;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Stylish, sans-serif;
+}
+
 #outputText {
     background-color: #1b3357;
     width: 300px;
     height: 100px;
     font-size: 20px;
     padding: 13px;
-    margin-bottom: 20px;
+    margin: 0 10px; 
     border-radius: 5px;
     border: none;
     color: #F8FAFC;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     font-family: Stylish, sans-serif;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#translate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+#translateButton {
+    background-color:#1b3357;
+    font-family: Stylish, sans-serif;
+    color: #F8FAFC;
+    width:50px;
 }
