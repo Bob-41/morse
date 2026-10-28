@@ -73,6 +73,8 @@ body {
 #translateButton {
     background-color:#1b3357;
     font-family: Stylish, sans-serif;
+    font-size:20px;
     color: #F8FAFC;
-    width:50px;
+    width:100px;
+    height:70px;
 }
